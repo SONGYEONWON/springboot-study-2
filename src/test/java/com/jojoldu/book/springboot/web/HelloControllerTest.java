@@ -20,7 +20,6 @@ public class HelloControllerTest {
     @Autowired
     private MockMvc mvc; // MockMvc API 테스트에 사용된다.
 
-
     @Test
     public void hello가_리턴된다() throws Exception {
         String hello = "hello";
